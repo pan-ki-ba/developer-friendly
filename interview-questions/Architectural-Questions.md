@@ -147,7 +147,7 @@
     - Transaction per second (TPS)
     - Request per second (RPS)
 
-#### **12 Factor App**
+#### **Explian 12 Factor App principles ?**
   The twelve-factor methodology is a set of twelve best practices to develop applications developed to run as a service.
   - **Codebase**
     - An app should be tracked in a single code repository and must not share that repository with any other apps.
