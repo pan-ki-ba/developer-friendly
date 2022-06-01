@@ -20,5 +20,10 @@
  - [**Why do we need to override equals and hashcode methods in Java ?**](Core-Java-Questions.md#why-do-we-need-to-override-equals-and-hashcode-methods-in-java)
 
 #### Microservices Questions
+ - [**What are the advantages of Microservices Architecture ?**](Microservices-Questions.md#what-are-the-advantages-of-microservices-architecture-)
+ - [**What are the disadvantages/challenges of Microservices Architecture ?**](Microservices-Questions.md#what-are-the-advantages-of-microservices-architecture-)
+ - [**Explain why RESTful API is stateless services ?**](Microservices-Questions.md#explain-why-restful-api-is-stateless-services-)
+ - [**How to design scalable microservices ?**](Microservices-Questions.md#how-to-design-scalable-microservices-)
+ - [**What are the best practices to design microservices ?**](Microservices-Questions.md#what-are-the-best-practices-to-design-microservices-)
 
 #### Spring Framework Questions
