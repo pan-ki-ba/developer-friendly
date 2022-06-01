@@ -31,7 +31,7 @@
       - Its highly likely that in the short term at least you’ll see an increase in costs from a number of factors
     - **Distributed transactions handling could be complex/difficult to handle**
 
-#### **Explain RESTful API is stateless services ?**
+#### **Explain why RESTful API is stateless services ?**
   - **Statelessness of REST Api**
     - Statelessness means that every HTTP request happens in complete isolation
     - Each request must contain all of the information necessary to be understood by the server, rather than be dependent on the server remembering prior requests.
@@ -47,6 +47,6 @@
       - For authentication, you could use the Basic HTTP Authentication scheme, which transmits credentials as username and password pairs, encoded using Base64: ***Authorization: Basic \<credentials>***
       - If you don't want to send the username and password in each request, the username and password could be exchanged for a token (such as JWT) that is sent in each request. JWT can contain the username, an expiration date and any other metadata that may be relevant for your application: ***Authorization: Bearer \<token>***
 
-#### **Scalable microservicess ?**
+#### **How to design scalable microservices ?**
 
 #### **What are the best practices to design microservices ?**
