@@ -1,7 +1,7 @@
 ### Interview Questions
 
 #### Architectural Questions
- - **Explain SOLID principle ?**
+ - **[Explain SOLID principle ?](Architectural Questions.md)**
 
 #### AWS Questions
 
