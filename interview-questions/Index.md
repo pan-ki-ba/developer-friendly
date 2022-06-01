@@ -2,6 +2,7 @@
 
 #### Architectural Questions
  - [Explain SOLID principle ?](Architectural Questions.md#explain-solid-principle-)
+ - [angular.json](Architectural Questions.md)
 
 #### AWS Questions
 
