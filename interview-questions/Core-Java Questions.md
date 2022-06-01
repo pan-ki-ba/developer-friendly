@@ -32,7 +32,7 @@
 
 #### **Explain working/usage of ConcurrentHashMap ?**
 
-#### **Explain comparator & comparable interfaces, whats usage of them ?**
+#### **Explain comparator & comparable interfaces, what's usage of them ?**
   - **Comparator**
     - The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
     - Comparator doesn't affect the original class, i.e., the actual class is not modified.
