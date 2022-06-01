@@ -10,7 +10,7 @@
   - **L**iskov Substitution principle
     - Every derived class should be substitutable for its parent class
     - In a lot of ways it’s simply an extension of open-closed principle, as it’s a way of ensuring that derived classes extend the base class without changing behavior
-    - Respecting this principle brings more stability over time to your complex systems with a hard focus on retro-compatibility
+    - Respecting this principle brings more stability over time to your complex systems with a hard focus on **retro-compatibility**
     - Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass. Its done by ***design by contract concept***
   - **I**nterface Segregation
     - Clients should not be forced to depend upon interfaces that they don't use
