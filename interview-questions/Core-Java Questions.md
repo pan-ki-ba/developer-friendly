@@ -1,8 +1,8 @@
-# Interview Questions
 
-## Core Java
 
-- **Explain OOPS Concept ?**
+### Core Java Questions
+
+#### **Explain OOPS Concept ?**
   - **Encapsulation**
     - Is the mechanism that binds together code and the data it manipulates,  and keeps both safe from outside interference/misuse
     - Is a protective wrapper that prevents the code and data from being arbitrarily accessed by other code defined outside the wrapper
@@ -25,10 +25,14 @@
   - **Abstraction**
     - Is the process of hiding certain details and showing only essential information to the user
     - Implemented in java using abstract class & interfaces
-- **What is Association, aggregation, and composition in OOPs ?**
-- **Expalin working/usage of HashMap ?**
-- **Explain working/usage of ConcurrentHashMap ?**
-- **Explain comparator & comparable interfaces, whats usage of them ?**
+
+#### **What is Association, aggregation, and composition in OOPs ?**
+
+#### **Explain working/usage of HashMap ?**
+
+#### **Explain working/usage of ConcurrentHashMap ?**
+
+#### **Explain comparator & comparable interfaces, whats usage of them ?**
   - **Comparator**
     - The Comparator provides multiple sorting sequences. In other words, we can sort the collection on the basis of multiple elements such as id, name, and price etc.
     - Comparator doesn't affect the original class, i.e., the actual class is not modified.
@@ -38,18 +42,23 @@
   - **Comparable**
     - Comparable provides a single sorting sequence. In other words, we can sort the collection on the basis of a single element such as id, name, and price
     - Comparable affects the original class, i.e., the actual class is modified
-    - Comparable provides ***compareTo(T obj)** method to sort elements.
+    - Comparable provides **compareTo(T obj)** method to sort elements
     - Comparable is present in java.lang package
     - Arrays.sort(x) and Collection.sort(x) uses compareTo() method of Comparable class
-- **String Class**
-- **What is the default method, and why is it required ?**
+
+#### **String Class**
+
+#### **What is the default method, and why is it required ?**
   - Method in the interface that has a predefined body is known as the default method
   - Concept of default method is introduced in java 8 to add the new methods in the existing interfaces in such a way so that they are backward compatible
-- **What is lambda expression ?**
+
+#### **What is lambda expression ?**
   - Lambda expressions let you express instances of single-method classes more compactly
   - A lambda expression is a short block of code which takes in parameters and returns a value
-- **Explain Streams working ?**
-- **Why do we need to override equals and hashcode methods in Java?**
+
+#### **Explain Streams working ?**
+
+#### **Why do we need to override equals and hashcode methods in Java?**
   - If two objects are equal, then they must have the same hashcode. If two objects have the same hashcode then they may or may not be equal
   - Equals contract
     - **Reflexive:** For any non-null reference value x, x.equals(x) should return true

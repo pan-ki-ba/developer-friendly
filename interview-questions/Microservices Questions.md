@@ -1,8 +1,7 @@
-# Interview Questions
 
-## Microservices
+### Microservices
 
-- **What are the advantages of Microservices Architecture ?**
+#### **What are the advantages of Microservices Architecture ?**
   - **Advantages**
     - **Independent developement**
       - Microservices can be assigned to specific development teams, which allows them to focus solely on one service/feature
@@ -17,7 +16,8 @@
       - Microservices provide the flexibility to try out a new technology stack on an individual service as needed
     - **Ease to understand and maintain**
       - Smaller codebase enables teams to more easily understand the code, making it simpler to maintain
-- **What are the disadvatages/challenges of Microservices Architecture ?**
+
+#### **What are the disadvantages/challenges of Microservices Architecture ?**
   - **Disadvantages**
     - **Communication between services is complex**
       - Communication between services can be complex. An application can include dozens or even hundreds of different services, and they all need to communicate securely
@@ -30,8 +30,9 @@
     - **Up-front costs may be higher with microservices**
       - Its highly likely that in the short term at least you’ll see an increase in costs from a number of factors
     - **Distributed transactions handling could be complex/difficult to handle**
-- **Explain RESTful API is stateless services ?**
-  - **Statelessness of REST Api** 
+
+#### **Explain RESTful API is stateless services ?**
+  - **Statelessness of REST Api**
     - Statelessness means that every HTTP request happens in complete isolation
     - Each request must contain all of the information necessary to be understood by the server, rather than be dependent on the server remembering prior requests.
     - Storing session state on the server violates the stateless constraint of the REST architecture
@@ -45,35 +46,7 @@
     - **how authentication/authorization works**
       - For authentication, you could use the Basic HTTP Authentication scheme, which transmits credentials as username and password pairs, encoded using Base64: ***Authorization: Basic \<credentials>***
       - If you don't want to send the username and password in each request, the username and password could be exchanged for a token (such as JWT) that is sent in each request. JWT can contain the username, an expiration date and any other metadata that may be relevant for your application: ***Authorization: Bearer \<token>***
-- **Scalable microservicess ?**
-- **What are the best practices to design microservices ?**
 
-## Architecture
+#### **Scalable microservicess ?**
 
-- **Explain SOLID principle ?**
-  - SOLID is a set of 5 design principles which encourage us to create more maintainable, understandable, and flexible object oriented software
-  - **S**ingle Responsibility
-    - **A class should have only one reason to change,** means that each class only does one thing and every class or module only has responsibility for one part of the software’s functionality
-  - **O**pen for extensions, close for modifications
-    - **Open for extension,** meaning that the class’s behavior can be extended and **Closed for modification,** meaning that the source code is set and cannot be changed.
-  - **L**iskov Substitution principle
-    - Every derived class should be substitutable for its parent class
-    - In a lot of ways it’s simply an extension of open-closed principle, as it’s a way of ensuring that derived classes extend the base class without changing behavior
-    - Respecting this principle brings more stability over time to your complex systems with a hard focus on retro-compatibility
-    - Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application. That requires the objects of your subclasses to behave in the same way as the objects of your superclass. Its done by ***design by contract concept***
-  - **I**nterface Segregation
-    - Clients should not be forced to depend upon interfaces that they don't use
-    - Fine grained interfaces shoulde be designed that are client-specific and they should not be forced to implement interfaces they do not use.
-    - Should have client specific interfaces and avoid general purpose fat interface
-  - **D**ependency Inversion
-    - High-level modules should not depend on low-level modules. Both should depend on abstractions. Depend on abstractions, not on concretions
-    - ***High Level Classes --> Abstraction Layer --> Low Level Classes***
-- **How sessions are handled in web applications ?**
-  - HTTP protocol and Web Servers are stateles
-  - Session is a conversional state between client and server and it can consists of multiple request and response between client and server. Since HTTP and Web Server both are stateless, the only way to maintain a session is when some unique information about the session (session id) is passed between server and client in every request & esponse
-  - several ways to handle session information
-    - URL rewriting
-    - Cookies
-    - Hidden Form fields
-    - HttpSession Api
-  
+#### **What are the best practices to design microservices ?**

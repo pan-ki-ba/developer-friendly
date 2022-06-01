@@ -1,8 +1,7 @@
-# Interview Questions
 
-## Architecture
+### Architectural Questions
 
-- **Explain SOLID principle ?**
+#### **Explain SOLID principle ?**
   - SOLID is a set of 5 design principles which encourage us to create more maintainable, understandable, and flexible object oriented software
   - **S**ingle Responsibility
     - **A class should have only one reason to change,** means that each class only does one thing and every class or module only has responsibility for one part of the software’s functionality
@@ -21,16 +20,32 @@
     - High-level modules should not depend on low-level modules. Both should depend on abstractions. Depend on abstractions, not on concretions
     - ***High Level Classes --> Abstraction Layer --> Low Level Classes***
 
+#### **TDD approach**
+  - Test driven development (TDD) is a software development approach in which a test is written before writing the code.It is a technique where test code is written before production code. It is a technique that is used for designing as well as testing software.
+  - **Stages**
+    - Red Stage
+    - Green Stage
+    - Refactor Stage
+  - **Advantages**
+    - TDD keeps the code clear and simple and improves the quality of code
+    - It Ensures that the written code is covered by at least one test casted
+    - TDD reduces the debugging time and Eliminates duplication of code.
+    - TDD helps in complete understanding of requirements and provides the ability to modify the application with the changing business requirements.
+  - **Disadvantages**
+    - DB & external files are not tested
+    - Difficult to test GUI based applications
+    - Need additional time to write/maintain test classes
+
 - **How sessions are handled in web applications ?**
-  - HTTP protocol and Web Servers are stateles
+  - HTTP protocol and Web Servers are stateless
   - Session is a conversional state between client and server and it can consists of multiple request and response between client and server. Since HTTP and Web Server both are stateless, the only way to maintain a session is when some unique information about the session (session id) is passed between server and client in every request & esponse
   - several ways to handle session information
     - URL rewriting
     - Cookies
     - Hidden Form fields
     - HttpSession Api
-  
-- **Explain Design Patterns ?**
+
+#### **Explain Design Patterns ?**
   - **Creational Patterns**
     - **Factory**
       - Creates objects without exposing the instantiation logic to the client & refers to the newly created object through a common interface
@@ -59,7 +74,7 @@
     - **Memento**
     - **Observer**
 
-- **How to design low latency and scalable applications ?**
+#### **How to design low latency and scalable applications ?**
   - Scalability is the ability of application to deal with an increasing number of users concurrently. Consequently, a scalable web application is one that performs equally well with one or a thousand users and stands ups and downs of the traffic
   - Application framework plays an important role in application performance. Components of application like front end & Back End needs to be designed corrrectly.
   - Load Balancers for different nodes
@@ -77,7 +92,7 @@
     - Replication
     - Indexes
 
-- **How to approach application performance optimization ?**
+#### **How to approach application performance optimization ?**
   - **Understand the application components and optimize them layer wise**
     - Presentation Layer optimization
       - Design Changes
@@ -91,7 +106,7 @@
       - Adoption of CDN
     - Business Layer optimization
       - CRUD Operations
-      - Business Logic implementation, API contract, design patterns used 
+      - Business Logic implementation, API contract, design patterns used
       - Resource pooling
         - Database connection pooling
         - Batching operations to reduce database round trips
@@ -130,9 +145,9 @@
     - Soak testing involves testing the app to detect performance-related issues such as stability and response time by requesting the designed load on a system. This is done for longer duration of time
   - **Throughput calculations**
     - Transaction per second (TPS)
-    - Request per second (RPS) 
+    - Request per second (RPS)
 
-- **12 Factor App**
+#### **12 Factor App**
   The twelve-factor methodology is a set of twelve best practices to develop applications developed to run as a service.
   - **Codebase**
     - An app should be tracked in a single code repository and must not share that repository with any other apps.
@@ -147,9 +162,9 @@
     - strictly separates the process of converting codebase into a running application
     - Build Stage
     - Release Stage
-    - Run Stage 
+    - Run Stage
   - **Processes**
-    - A twelve-factor app is expected to run in an execution environment as stateless processes. 
+    - A twelve-factor app is expected to run in an execution environment as stateless processes.
   - **Port Binding**
     - Export services via port binding
     - 12-factor apps must always be independent from additional applications. Every function should be its own process—in full isolation
@@ -168,3 +183,12 @@
   - **Admin processes**
     - Run admin/management tasks as one-off processes
     - Administrative tasks should be treated no differently, they should be executed within the same process formation and the code or scripts associated with them should be part of the applications repository
+
+#### **How sessions are handled in web applications ?**
+  - HTTP protocol and Web Servers are stateles
+    - Session is a conversional state between client and server and it can consists of multiple request and response between client and server. Since HTTP and Web Server both are stateless, the only way to maintain a session is when some unique information about the session (session id) is passed between server and client in every request & esponse
+    - several ways to handle session information
+      - URL rewriting
+      - Cookies
+      - Hidden Form fields
+      - HttpSession Api
