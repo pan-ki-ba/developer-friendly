@@ -46,7 +46,7 @@
     - Comparable is present in java.lang package
     - Arrays.sort(x) and Collection.sort(x) uses compareTo() method of Comparable class
 
-#### **String Class**
+#### **Why String is Immutable/Final in Java ?**
 
 #### **What is the default method, and why is it required ?**
   - Method in the interface that has a predefined body is known as the default method
