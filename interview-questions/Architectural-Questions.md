@@ -24,13 +24,19 @@
   - Test driven development (TDD) is a software development approach in which a test is written before writing the code.It is a technique where test code is written before production code. It is a technique that is used for designing as well as testing software.
   - **Stages**
     - Red Stage
+      - Writing a test that fails because of code absence
     - Green Stage
+      - Writing a code after which the test is passed 
     - Refactor Stage
+      - Checking the code structure and its improvement without changing its external behavior. The expected result of refactoring is obtaining a perfectly written code   
   - **Advantages**
+    - Better program design and higher code quality
     - TDD keeps the code clear and simple and improves the quality of code
     - It Ensures that the written code is covered by at least one test casted
     - TDD reduces the debugging time and Eliminates duplication of code.
-    - TDD helps in complete understanding of requirements and provides the ability to modify the application with the changing business requirements.
+    - TDD helps in complete understanding of requirements and provides the ability to modify the application with the changing business requirements. Detailed project documentation
+    - Code flexibility and easier maintenance
+    - TDD reduces the time required for project development
   - **Disadvantages**
     - DB & external files are not tested
     - Difficult to test GUI based applications
