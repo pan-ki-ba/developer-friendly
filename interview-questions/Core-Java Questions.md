@@ -26,7 +26,7 @@
     - Is the process of hiding certain details and showing only essential information to the user
     - Implemented in java using abstract class & interfaces
 
-#### **What is Association, aggregation, and composition in OOPs ?**
+#### **What is Association, aggregation, and composition in OOP's ?**
 
 #### **Explain working/usage of HashMap ?**
 
