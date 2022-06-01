@@ -1,8 +1,8 @@
 ### Interview Questions
 
 #### Architectural Questions
- - [Explain SOLID principle ?](Architectural Questions.md#explain-solid-principle-)
- - [angular.json](Architectural Questions.md)
+ - [**Explain SOLID principle ?**](Architectural-Questions.md#explain-solid-principle-)
+
 
 #### AWS Questions
 
