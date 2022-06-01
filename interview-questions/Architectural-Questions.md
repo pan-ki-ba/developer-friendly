@@ -92,7 +92,7 @@
 #### **How to approach application performance optimization ?**
   - **Understand the application components and optimize them layer wise**
     - Presentation Layer optimization
-      - \color{alizarin}Design Changes
+      - Design Changes
         - Include only required functionality and reduce page section
         - On demand data loading & paginated results should be adopted
         - Search page should have 'paginated' view instead of 'show-all' view
