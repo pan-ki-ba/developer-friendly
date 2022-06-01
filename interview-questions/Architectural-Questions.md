@@ -36,15 +36,6 @@
     - Difficult to test GUI based applications
     - Need additional time to write/maintain test classes
 
-- **How sessions are handled in web applications ?**
-  - HTTP protocol and Web Servers are stateless
-  - Session is a conversional state between client and server and it can consists of multiple request and response between client and server. Since HTTP and Web Server both are stateless, the only way to maintain a session is when some unique information about the session (session id) is passed between server and client in every request & esponse
-  - several ways to handle session information
-    - URL rewriting
-    - Cookies
-    - Hidden Form fields
-    - HttpSession Api
-
 #### **Explain Design Patterns ?**
   - **Creational Patterns**
     - **Factory**
