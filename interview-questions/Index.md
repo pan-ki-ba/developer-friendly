@@ -7,6 +7,7 @@
  - [**How to design low latency & scalable applications ?**](Architectural-Questions.md#how-to-design-low-latency-and-scalable-applications-)
  - [**Explian 12 factor app principles ?**](Architectural-Questions.md#explian-12-factor-app-principles-)
  - [**How sessions are handled in web applications ?**](Architectural-Questions.md#how-sessions-are-handled-in-web-applications-)
+ - [**Design Principles for scalable application ?**]
 
 #### AWS Questions
 
