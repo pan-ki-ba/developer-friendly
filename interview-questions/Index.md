@@ -10,6 +10,7 @@
  - [**Design Principles for scalable application ?**]
  - [**How to handle refrential integrity while designing microservices database ?**]
  - [**Explain event driven architecture ?**]
+ - [**Explain the need of distributed caching ?**]
 
 #### AWS Questions
 
@@ -32,3 +33,10 @@
  - [**How different microservices then normal service/s ?**]
 
 #### Spring Framework Questions
+ - [**Exception handling in Spring Boot ?**]
+ - 
+
+#### Hazelcast Questions
+ - [**Expalin how clustering works in hazelcast ?**]
+ - [**How sharding/replicas maintain in hazelcast ?**]
+ - [** What serialization technique you used in hazelcast ?**]
