@@ -8,6 +8,8 @@
  - [**Explian 12 factor app principles ?**](Architectural-Questions.md#explian-12-factor-app-principles-)
  - [**How sessions are handled in web applications ?**](Architectural-Questions.md#how-sessions-are-handled-in-web-applications-)
  - [**Design Principles for scalable application ?**]
+ - [**How to handle refrential integrity while designing microservices database ?**]
+ - [**Explain event driven architecture ?**]
 
 #### AWS Questions
 
@@ -26,5 +28,7 @@
  - [**Explain why RESTful API is stateless services ?**](Microservices-Questions.md#explain-why-restful-api-is-stateless-services-)
  - [**How to design scalable microservices ?**](Microservices-Questions.md#how-to-design-scalable-microservices-)
  - [**What are the best practices to design microservices ?**](Microservices-Questions.md#what-are-the-best-practices-to-design-microservices-)
+ - [**Difference between SOAP vs REST ?**]
+ - [**How different microservices then normal service/s ?**]
 
 #### Spring Framework Questions
