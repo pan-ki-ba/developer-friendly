@@ -11,6 +11,8 @@
  - [**How to handle refrential integrity while designing microservices database ?**]
  - [**Explain event driven architecture ?**]
  - [**Explain the need of distributed caching ?**]
+ - which design patterns are getting use a lot ?
+
 
 #### AWS Questions
 
@@ -32,6 +34,9 @@
  - [**What are the best practices to design microservices ?**](Microservices-Questions.md#what-are-the-best-practices-to-design-microservices-)
  - [**Difference between SOAP vs REST ?**]
  - [**How different microservices then normal service/s ?**]
+ - distributed transactions in microservice 
+ - asynchronous messages/communications between microservice ?
+ - How to design microservices from monolithic ?
 
 #### Spring Framework Questions
  - [**Exception handling in Spring Boot ?**]
