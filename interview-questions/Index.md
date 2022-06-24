@@ -22,6 +22,7 @@
  - [**Explain comparator & comparable interfaces, what's usage of them ?**](Core-Java-Questions.md#explain-comparator--comparable-interfaces-whats-usage-of-them-)
  - [**Why String is Immutable/Final in Java ?**](Core-Java-Questions.md#why-string-is-immutablefinal-in-java-)
  - [**Why do we need to override equals and hashcode methods in Java ?**](Core-Java-Questions.md#why-do-we-need-to-override-equals-and-hashcode-methods-in-java)
+ - java.utils package
 
 #### Microservices Questions
  - [**What are the advantages of Microservices Architecture ?**](Microservices-Questions.md#what-are-the-advantages-of-microservices-architecture-)
@@ -34,7 +35,8 @@
 
 #### Spring Framework Questions
  - [**Exception handling in Spring Boot ?**]
- - 
+ - [**spring MVC flow**]
+ - [How annotations are getting processed?]
 
 #### Hazelcast Questions
  - [**Expalin how clustering works in hazelcast ?**]
