@@ -37,6 +37,7 @@
  - distributed transactions in microservice 
  - asynchronous messages/communications between microservice ?
  - How to design microservices from monolithic ?
+ - Design principles for microservices ?
 
 #### Spring Framework Questions
  - [**Exception handling in Spring Boot ?**]
