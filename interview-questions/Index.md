@@ -48,3 +48,7 @@
  - [**Expalin how clustering works in hazelcast ?**]
  - [**How sharding/replicas maintain in hazelcast ?**]
  - [** What serialization technique you used in hazelcast ?**]
+
+#### GitHub Questions
+ - Common problems developers face ?
+ - How to do cherrypicking ?
